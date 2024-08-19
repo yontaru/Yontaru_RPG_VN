@@ -1,0 +1,63 @@
+[gd_scene load_steps=4 format=3 uid="uid://6fhcsx5ajst0"]
+
+[ext_resource type="Texture2D" uid="uid://dot4d1jk4na70" path="res://images/chapter1/text dialogue.png" id="1_dpdsf"]
+[ext_resource type="Script" path="res://Scripts/Chapter1.gd" id="1_ggaq5"]
+[ext_resource type="FontFile" uid="uid://bwvpbr46c6uj1" path="res://fonts/Beholden-Regular.ttf" id="2_ylb7x"]
+
+[node name="Chapter1" type="Node2D"]
+
+[node name="Control_1" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1928.0
+offset_bottom = 1083.0
+script = ExtResource("1_ggaq5")
+
+[node name="Background" type="TextureRect" parent="Control_1"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ImageExploration" type="TextureRect" parent="Control_1/Background"]
+layout_mode = 0
+offset_right = 1928.0
+offset_bottom = 1083.0
+
+[node name="ImageCombat" type="TextureRect" parent="Control_1/Background"]
+layout_mode = 0
+offset_right = 1928.0
+offset_bottom = 1083.0
+
+[node name="ImageMystery" type="TextureRect" parent="Control_1/Background"]
+layout_mode = 0
+offset_right = 1928.0
+offset_bottom = 1083.0
+
+[node name="DialogueText" type="TextureRect" parent="Control_1"]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 447.0
+offset_right = 1714.0
+offset_bottom = 1205.0
+texture = ExtResource("1_dpdsf")
+expand_mode = 1
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Control_1/DialogueText"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.16
+anchor_top = 0.52
+anchor_right = 0.898
+anchor_bottom = 0.734
+offset_left = 0.159973
+offset_top = -0.160034
+offset_right = 0.647949
+offset_bottom = -0.372009
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("2_ylb7x")
+theme_override_font_sizes/normal_font_size = 30
+bbcode_enabled = true
+
+[connection signal="gui_input" from="Control_1/Background" to="Control_1" method="_on_background_gui_input"]
