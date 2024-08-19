@@ -1,1 +1,5 @@
 res://Scenes/Menu.tscn
+res://Scripts/Menu.gd
+res://Assets/transition_scene.gd
+res://Assets/transition_scene.tscn
+res://Scripts/transition_scene.gd

@@ -1,10 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1724102836
+::res://::1724103564
 export_presets.cfg::TextFile::-1::1724102815::0::1::::<><>::
 icon.svg::CompressedTexture2D::5841810861324359829::1724102815::1724102837::1::::<><>::
+::res://Assets/::1724103564
+transition_scene.gd::GDScript::-1::1724103561::0::1::::<>CanvasLayer<>::
+transition_scene.tscn::PackedScene::2251472939427989311::1724103572::0::1::::<><>::res://Assets/transition_scene.gd
 ::res://Dialogues/::1724102815
 chapter1.json::JSON::-1::1724102815::0::1::::<><>::
-::res://fonts/::1724102815
+::res://fonts/::1724102837
 Beholden-Bold-Italic.ttf::FontFile::6684302938961854304::1724102815::1724102837::1::::<><>::
 Beholden-Bold.ttf::FontFile::7940338446664300780::1724102815::1724102837::1::::<><>::
 Beholden-Italic.ttf::FontFile::863987891534729301::1724102815::1724102837::1::::<><>::
@@ -13,17 +16,17 @@ Beholden-Medium.ttf::FontFile::6119234951966432949::1724102815::1724102837::1:::
 Beholden-Regular.ttf::FontFile::3974840656359163860::1724102815::1724102837::1::::<><>::
 LICENSE.txt::TextFile::-1::1724102815::0::1::::<><>::
 ::res://images/::1724102815
-::res://images/chapter1/::1724102815
+::res://images/chapter1/::1724102838
 combat.jpg::CompressedTexture2D::8162147073178847839::1724102815::1724102838::1::::<><>::
 exploration.jpg::CompressedTexture2D::1401895351611162772::1724102815::1724102838::1::::<><>::
 mystery.jpg::CompressedTexture2D::2899678358186783636::1724102815::1724102838::1::::<><>::
 scenario1.jpg::CompressedTexture2D::3405375836017487519::1724102815::1724102838::1::::<><>::
 text dialogue.png::CompressedTexture2D::8182896569514797969::1724102815::1724102838::1::::<><>::
-::res://images/menu/::1724102815
+::res://images/menu/::1724102838
 background1.jpg::CompressedTexture2D::8722943313209314954::1724102815::1724102838::1::::<><>::
-::res://Scenes/::1724102815
+::res://Scenes/::1724102842
 chapter_1.tscn::PackedScene::2186605614400719919::1724102815::0::1::::<><>::uid://dot4d1jk4na70::::res://images/chapter1/text dialogue.png<>res://Scripts/Chapter1.gd<>uid://bwvpbr46c6uj1::::res://fonts/Beholden-Regular.ttf
-Menu.tscn::PackedScene::9044140174858213932::1724102815::0::1::::<><>::res://Scripts/Menu.gd<>uid://dwjpup3jrtgms::::res://images/menu/background1.jpg
-::res://Scripts/::1724102815
+Menu.tscn::PackedScene::9044140174858213932::1724102842::0::1::::<><>::res://Scripts/Menu.gd<>uid://dwjpup3jrtgms::::res://images/menu/background1.jpg
+::res://Scripts/::1724103194
 Chapter1.gd::GDScript::-1::1724102815::0::1::::<>Control<>::
-Menu.gd::GDScript::-1::1724102815::0::1::::<>Control<>::
+Menu.gd::GDScript::-1::1724103194::0::1::::<>Control<>::
