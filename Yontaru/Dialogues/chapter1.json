@@ -1,0 +1,29 @@
+{
+    "dialogues": [
+        {
+            "text": "¿Qué es Aventura?"
+        },
+        {
+            "text": "¿Explorar cada parte del mundo?",
+            "image": "res://images/chapter1/exploration.jpg"
+        },
+        {
+            "text": "¿Vencer a los oponentes más fuertes?",
+            "image": "res://images/chapter1/combat.jpg"
+        },
+        {
+            "text": "¿Resolver misterios?",
+            "image": "res://images/chapter1/mystery.jpg"
+        },
+        {
+            "text": "Si tuvieras que escoger de estas tres opciones ¿cuál escogerias?",
+            "images": [
+                "res://images/chapter1/exploration.jpg",
+                "res://images/chapter1/combat.jpg",
+                "res://images/chapter1/mystery.jpg"
+            ]
+        }
+    ]
+}
+
+
